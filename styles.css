@@ -1,1 +1,69 @@
 /*  your css code here. If applicable */
+body{
+	background:#f6f6f6;
+}
+.facebook{
+	display:flex;
+	margin-top:100px;
+	width:100%;
+	font-family:arial;
+}
+.content{
+	width:60%;
+	margin-left:50px;
+	justify-content:space-around;
+}
+.content>img{
+	width:300px;
+
+}
+.form-box{
+	width:40%;
+	border:1px solid gray;
+	border-radius:10px;
+	padding:20px;
+	box-shadow:0px 0px 15px 1px gray;
+	background:#ffffff;
+	margin-right:30px
+}
+#text{
+	padding:15px;
+	width:90%;
+	border-radius:10px;
+	margin-bottom:20px;
+	font-size:20px;
+	
+}
+#password{
+	padding:15px;
+	width:90%;
+	border-radius:10px;
+	margin-bottom:20px;
+	font-size:20px;
+	
+}
+#btn-1{
+	padding:15px;
+	width:100%;
+	font-size:20px;
+	
+	border-radius:10px;
+	margin-bottom:20px;
+	background:#1a77f2;
+	color:#ffffff;
+}
+#btn-2{
+	padding:15px;
+	width:70%;
+	font-size:20px;
+	border-radius:10px;
+	margin-left:50px;
+	background:#43b72a;
+	color:#ffffff
+}
+a{
+	text-decoration:none;
+	font-size:25px;
+	color:#1a77f2;
+	margin-left:100px;
+}
